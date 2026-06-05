@@ -29,6 +29,7 @@ public class Post {
     @LastModifiedDate
     private LocalDateTime updatedAt; //수정일자
 
+    //생성 매서드
     public static Post create(String title, String content, String author) {
         Post post = new Post();
         post.title = title;
